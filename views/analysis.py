@@ -40,7 +40,8 @@ LOGGER = logging.getLogger("geosafe")
 logger = logging.getLogger("geonode.geosafe.analysis")
 
 
-def retrieve_layers(purpose, category=None, bbox=None, authorized_objects=None):
+def retrieve_layers(
+        purpose, category=None, bbox=None, authorized_objects=None):
     """List all required layers.
 
     :param purpose: InaSAFE layer purpose that want to be filtered.
